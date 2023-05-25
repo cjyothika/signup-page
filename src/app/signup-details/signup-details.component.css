@@ -1,0 +1,127 @@
+body{
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.name{
+    margin: 10px;
+    width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: thin;
+    border-color: #c2c4c3;
+    box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
+    font-family: "Nunito";
+    min-width: 0
+}
+
+.signup{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: thin;
+    border-color: #c2c4c3;
+    box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    font-family: "Nunito";
+}
+
+.btn{
+    margin: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
+    border-width: thin;
+    border-color: #c2c4c3;;
+    color: black;
+    padding: 10px 28px;
+    font-family: "Nunito";
+    font-weight: bolder;
+}
+
+.signupbtn{
+    background-color: orange;
+    color: white;
+    border-radius: 40px;
+    border-width: 0px;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.signupbtn:active{
+    background-color: darkorange;
+    color: white;
+    border-radius: 40px;
+    border-width: 0px;
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    transform: translateY(4px);
+}
+
+.btn:active{
+    margin: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 7px;
+    background-color: darkgrey;
+    color: black;
+    padding: 10px 28px;
+    box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
+    transform: translateY(4px);
+    font-family: "Nunito";
+}
+
+input[type="checkbox"] {
+    border-radius: 0.1em;
+    border: 0.1em gray;
+    color: #c2c4c3;
+    accent-color: darkgrey;
+}
+
+label {
+    font-size: 10px;
+    color: #c2c4c3;
+    font-family: "Nunito";
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+position:relative;
+text-align:center;
+font-family: "Nunito";
+color: gray;
+font-size: 10px;
+}
+
+h3 span {
+    display:inline-block;
+    padding:0 10px;
+    background:#fff;
+}
+
+h3:before {
+    content:"";
+    display:block;
+    position:absolute;
+    z-index:-1;
+    left:0;
+    right:0;
+    top:50%;
+    height:1px;
+    background:#ccc;
+}
+
+img{
+    vertical-align: bottom;
+}
