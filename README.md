@@ -1,5 +1,7 @@
 # LoginPage
 
+<img width="635" alt="Screenshot 2023-05-25 at 10 11 16 PM" src="https://github.com/cjyothika/signup-page/assets/59786385/7bfe4e98-dbae-4e6b-9462-ec41a18a0034">
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
 ## Development server
